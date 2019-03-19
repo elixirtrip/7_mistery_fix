@@ -13,4 +13,7 @@ def get_roots(a, b, c):
 
 
 if __name__ == '__main__':
-    print(get_roots(1, -2, 3))
+    coefficient_a = 1
+    coefficient_b = -2
+    coefficient_c = 3
+    print(get_roots(coefficient_a, coefficient_b, coefficient_c))
