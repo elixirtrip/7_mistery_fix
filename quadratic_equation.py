@@ -10,3 +10,7 @@ def get_roots(a, b, c):
         return root1, None
     root2 = (-b + sqrt(discriminant)) / (2 * a)
     return root1, root2
+
+
+if __name__ == '__main__':
+    print(get_roots(1, -2, 3))
